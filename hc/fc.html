@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IP Address Education</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('images.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            color: white;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1500px;
+            margin: 0 auto;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 10px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        h3 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 1.1rem;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style-type: none;
+            margin-bottom: 30px;
+        }
+        li {
+            font-size: 1rem;
+            margin-bottom: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            li {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>IP-Tracer</h1>
+        <p>IP-Tracer is used to track an ip address. IP-Tracer is developed for Termux and Linux based systems. you can</p>
+        <p>easily retrieve ip address information using IP-Tracer. IP-Tracer use ip-api to track ip address.</p>
+
+        <h3>Installation</h3>
+        <ul>
+        <li style="font-size: 20px; color: white;">apt update</li>
+        <li style="font-size: 20px; color: white;">apt install git -y</li>
+        <li style="font-size: 20px; color: white;;">git clone https://github.com/rajkumardusad/IP-Tracer.git</li>
+        <li style="font-size: 20px; color: white;">cd IP-Tracer</li>
+        <li style="font-size: 20px; color: white;">chmod +x install</li>
+        <li style="font-size: 20px; color: white;">sh install or ./install</li>
+        </ul>
+
+        <div class="button-container">
+            <a href="rc.html" class="button">PREVIOUS</a>
+            <a href="lc.html" class="button">DONE</a>
+        </div>
+    </div>
+</body>
+</html>
